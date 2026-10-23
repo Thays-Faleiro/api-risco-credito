@@ -36,6 +36,9 @@ Certifique-se de ter o Python 3.10+ instalado em sua máquina.
    cd api-risco-credito
 
 
+## 🎥 7. Evidências e Apresentação
+- **Vídeo de Apresentação:** https://drive.google.com/file/d/SEU_LINK_AQUI
+
 
 
    pip install -r requirements.txt

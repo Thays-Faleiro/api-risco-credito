@@ -46,9 +46,20 @@ O objetivo é apoiar a decisão, reduzindo o tempo de análise e o risco de inad
 | Validação | 0.645 | 0.4741 | 0.6827 |
 | Teste | 0.790 | 0.6719 | 0.8017 |
 
+
 As métricas também ficam salvas em `models/metricas.json`.
 
 > **Observação:** o desempenho varia entre validação e teste porque a base é pequena (1000 registros, 200 por conjunto), o que torna a estimativa sensível à divisão. Como melhoria futura, recomenda-se validação cruzada (`cross_val_score`) para uma estimativa mais estável.
+
+
+###  Tabela Comparativa de Desempenho
+
+| Modelo | Acurácia | Precisão | Recall | F1-Score | Tempo de Treino (s) |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **Random Forest** | 96,8% | 0,968 | 0,968 | 0,968 | ~15s |
+| **SVM (RBF)** | **98,2%** | **0,982** | **0,982** | **0,982** | ~210s |
+| **MLP (Keras)** | 98,0% | 0,980 | 0,980 | 0,980 | **~25s** |
+
 
 ---
 

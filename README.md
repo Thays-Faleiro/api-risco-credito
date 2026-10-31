@@ -242,4 +242,4 @@ As branches não são excluídas após o Pull Request, e o código final está m
 
 ## 9. Evidências e Apresentação
 
-**Vídeo de apresentação:** [assistir no Google Drive]([COLE_AQUI_O_LINK_DO_VIDEO](https://drive.google.com/file/d/14-JevJWwpERtMEhDJAcykmIODy9QDC-K/view?usp=sharing))
+**Vídeo de apresentação:** [Assistir no Google Drive](https://drive.google.com/file/d/14-JevJWwpERtMEhDJAcykmIODy9QDC-K/view?usp=sharing)
